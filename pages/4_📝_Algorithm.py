@@ -1,0 +1,26 @@
+import streamlit as st
+from PIL import Image
+
+st.markdown("# Machine Learning Algorithm")
+st.write("The machine learning algorithm used on the program is ***Logistic Regression.***")
+
+st.write("#### **Evaluation Metrics:**")
+st.write("**1. Accuracy**")
+st.write("Logistic Regression achieved the highest accuracy (0.8903) compared to other algorithms.")
+st.image(Image.open("C:/Users/Nurin Syakirah/Desktop/SUBJECTS - BCS DS/Sem 5/WIH3001 DATA SCIENCE PROJECT/viz/Accuracy.png"), use_column_width=True)
+st.write(" ")
+st.write("**2. Precision**")
+st.write("Logistic Regression recorded the highest Precision value (0.8919) compared to other algorithms.")
+st.image(Image.open("C:/Users/Nurin Syakirah/Desktop/SUBJECTS - BCS DS/Sem 5/WIH3001 DATA SCIENCE PROJECT/viz/Precision.png"), use_column_width=True)
+st.write(" ")
+st.write("**3. Recall**")
+st.write("Logistic Regression achieved the highest Recall value (0.8903) compared to other algorithms.")
+st.image(Image.open("C:/Users/Nurin Syakirah/Desktop/SUBJECTS - BCS DS/Sem 5/WIH3001 DATA SCIENCE PROJECT/viz/Recall.png"), use_column_width=True)
+st.write(" ")
+st.write("**4. F1 Score**")
+st.write("Logistic Regression achieved the highest F1 Score value (0.8897) compared to other algorithms.")
+st.image(Image.open("C:/Users/Nurin Syakirah/Desktop/SUBJECTS - BCS DS/Sem 5/WIH3001 DATA SCIENCE PROJECT/viz/F1 Score.png"), use_column_width=True)
+st.write(" ")
+st.write("**5. Confusion Matrix**")
+st.write("Below is the confusion matrix for Logistic Regression Algorithm.")
+st.image(Image.open("C:/Users/Nurin Syakirah/Desktop/SUBJECTS - BCS DS/Sem 5/WIH3001 DATA SCIENCE PROJECT/viz/confusion matrix.png"), use_column_width=True)
