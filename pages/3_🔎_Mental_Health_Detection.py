@@ -34,7 +34,7 @@ if enter_btn:
 
         st.subheader("Prediction:")
         st.write("**Predicted Class:** ", predicted_class_label)
-        st.write("**Accuracy Score:** ", confidence_score)
+        st.write("**Confidence Score:** ", confidence_score)
         st.subheader("I recommend you to:")
 
         if predicted_class_label in recommendations:
